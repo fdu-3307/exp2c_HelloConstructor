@@ -11,7 +11,8 @@ public class Child extends Parent implements Asks4money, SpendsMoney {
 	private String favoriteFood;
 
 	public Child() {
-		super();
+		// NOTE ilker java will automagically add below line here for us
+//		super();
 	}
 	
 	public Child(float _debt, String _name, String _lastName, float _wealth, String _favoriteFood) {
